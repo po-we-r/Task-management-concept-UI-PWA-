@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+:root {
+    --swatch_1: #b8c4d8;
+    --swatch_2: #f3f4f6;
+    --swatch_3: #969eac;
+    --swatch_4: #0c0c0c;
+    --swatch_5: #5b595a;
+    --swatch_6: #9d756c;
+    --swatch_7: #d4aaf4;
+}
+
+/* CSS */
+.swatch_1{
+    background: #b8c4d8;
+}
+.swatch_2{
+    background: #f3f4f6;
+}
+.swatch_3{
+    background: #969eac;
+}
+.swatch_4{
+    background: #0c0c0c;
+}
+.swatch_5{
+    background: #5b595a;
+}
+.swatch_6{
+    background: #9d756c;
+}
+.swatch_7{
+    background: #d4aaf4;
+}
+
+.container {
+  padding: 2em;
+}
+.date {
+  color: var(--swatch_1);
+  font-weight: bold;
+}
+.date-profile {
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.date-profile img {
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 50%;
+  border: 2px solid var(--swatch_1);
+}
+.calender .slide {
+  display: flex;
+  justify-content: space-evenly;
+  gap: .5em;
+  font-size: .8em;
+  font-weight: bold;
+  color: var(--swatch_3);
+  margin-top: 1em;
+}
+.slide span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: .6em;
+  cursor: pointer;
+}
+.active {
+    color: #fff;
+    background: var(--swatch_4);
+    border-radius: 9999px;
+    padding: .4em;
+    padding-top: .6em;
+    padding-bottom: .6em;
+    box-shadow: 0px 10px 55px -3px rgb(0 0 0 / 10%);
+}
+
+ .timeline {
+            position: relative;
+            list-style: none;
+            padding: 0;
+            margin-top: 2em;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .timeline-item::before,
+        .timeline-item::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .timeline-item::before {
+            content: "";
+            position: absolute;
+            top: 12px;
+            left: 1px;
+            width: 2px;
+            height: 110%;
+            background-color: var(--swatch_4); 
+            transform: translateX(-50%);
+        }
+        .first-circle {
+    border: 1px solid #fff !important;
+   background: var(--swatch_4) !important;
+}
+.first-circle::before {
+    content: '';
+    height: 24px;
+    width: 24px !important;
+    background: var(--swatch_4);
+    display: block;
+    opacity: .5;
+    border-radius: 50%;
+    z-index: -10;
+    position: absolute;
+    border: none;
+}
+        .timeline-circle {
+            position: absolute;
+            top: 0;
+            left: 0%;
+            margin-left: -12px;
+            width: 20px; 
+            height: 20px; 
+            border-radius: 50%;
+            background-color: var(--swatch_3); 
+            border: 2px solid #ffffff; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff; 
+            font-weight: bold;
+        }
+
+        .timeline-content {
+            max-width: 400px; 
+            padding: 10px;
+            margin-left: 30px; 
+            border-radius: 5px;
+        }
+        .firstcontent {
+          color: #fff;
+          padding: 15px;
+          max-width: 380px;
+           background-color: var(--swatch_4); 
+    background-image: url('wave.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 10em;
+    border-radius: 1em;
+    
+        }
+        .details {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: .8em;
+        }
+        .details h3 {
+          font-weight: bold;
+        }
+        .image-list {
+          display: flex;
+          gap: -1em;
+        }
+        .image-list img {
+          width: 2em;
+          height: 2em;
+          border-radius: 50%;
+          margin-left: -0.4em;
+        }
+        .image-list img:first-child{
+          margin: 0 !important;
+        }
+        .first-line {
+          height: 8em;
+        }
+        .bottom-line {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .fa-check {
+          padding: .5em;
+          border-radius: .3em;
+          background: #fff;
+          cursor: pointer;
+          color: var(--swatch_4);
+        }
+        .sub-details {
+          font-size: .8em;
+          font-weight: 200;
+        }
+        
+        .bottom-nav {
+          position: fixed;
+          bottom: 0;
+          height: 4em;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          width: 100%;
+          list-style: none;
+          background: #fff;
+        }
+        .bottom-nav i {
+          color: var(--swatch_1);
+        }
+        .bottom-nav li:nth-child(2) i {
+          color: var(--swatch_4) !important;
+        }
+        .bottom-nav li:nth-child(2) i::after{
+          content: '.';
+          display: block;
+          text-align: center;
+          color: var(--swatch_4);
+        }
+        .middle {
+    background: var(--swatch_4);
+   /* box-shadow: 0px 0px 0px 12px var(--swatch_4); */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.4em;
+    width: 2.4em;
+    border: 4px solid var(--swatch_3);
+}
+
+/* Task managemennt progressive app concept:; built by Jacob owolabi @whimsical_jake on all socials */
