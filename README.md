@@ -11,25 +11,16 @@ Taskify is a Progressive Web App (PWA) designed to streamline task management, a
 
 - **Cross-Platform Compatibility**: Access Taskify from any device with a web browser, ensuring seamless task management on desktops, laptops, tablets, and smartphones.
   
-- **Intuitive Task Organization**: Easily create, edit, and categorize tasks with a user-friendly interface.
+- **Clean Modern UI**: Very appealing UI to interact with.
 
-- **Priority Settings**: Assign priority levels to tasks to focus on what matters most and stay organized.
+- **Clean code**: Well organized code to foster future edits and collaboration for others to edit easily.
 
-- **Real-time Sync**: Sync tasks across multiple devices in real-time, ensuring that your task list is always up-to-date.
+- **Real-time Sync (Future update)**: Sync tasks across multiple devices in real-time, ensuring that your task list is always up-to-date.
 
 ## Installation
 
 Taskify is a web-based application and does not require any installation. Simply visit the [Taskify website](https://upblog.web.app) from your web browser to get started.
 
-## Usage
-
-1. **Sign Up / Sign In**: Create an account or sign in to your existing account to access your task list.
-
-2. **Create Tasks**: Click on the "Add Task" button to create a new task. Enter the task details, including title, description, due date, and priority.
-
-3. **Manage Tasks**: Use the intuitive interface to manage your tasks. Edit task details, mark tasks as complete, or delete tasks as needed.
-
-4. **Sync Across Devices**: Your task list is automatically synced across all your devices, ensuring that you have access to your tasks wherever you go.
 
 ## Contributing
 
